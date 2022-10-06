@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+
+
+
+.todo {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.todoTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.gray {
+    width: 5px;
+    height: 40px;
+    border-radius: 3px;
+    background: #A9A9A9;
+    margin-bottom: 0;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.todo .todo:last-child {
+    margin-bottom: 0;
+}
+
+.toDoLine {
+
+    width: 5px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.todayList .todo:first-child {
+    margin-top: 0;
+}
+
+.todayList .toDoLine:nth-child(3n-2) {
+    background: #FF0000 !important
+}
+
+.todayList .todo:nth-child(3n-1) .toDoLine {
+    background: #366EFF !important
+}
+
+.todayList .todo:nth-child(3n) .toDoLine {
+    background: #FFEB33 !important
+}
+
+.todo:nth-child(3n-1) .toDoLine {
+    background: #FF0000;
+}
+
+.todo:nth-child(3n) .toDoLine {
+    background: #366EFF;
+}
+
+.todo:nth-child(3n+1) .toDoLine {
+    background: #FFEB33;
+}
+
+
+
+
+.red {
+    background: #FF0000;
+}
+
+.blue {
+    background: #366EFF;
+}
+
+.yellow {
+    background: #FFEB33;
+}
+
+
+
+.toDoText {
+    margin-left: 14px;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.toDoTextSubtitle {
+    margin-bottom: 5px;
+}
+
+.toDoTextSubtitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px
+}
+
+.toDoSwitchWrapper {
+    margin-left: auto;
+}
+
+.toDoDropWrapper {
+    width: 21px;
+    height: 21px;
+    margin-right: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.toDoList {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.addButtonWrapper {
+    display: flex;
+    justify-content: center;
+}

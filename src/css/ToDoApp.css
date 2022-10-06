@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.ToDoApp {
+    width: 400px;
+    background-color: #282828;
+    border-radius: 8px;
+
+    padding: 13px 20px
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleText {
+    font-family: 'Actor', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #F4F4F4;
+}
+
+.subtitleText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.todayTasksWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.todayTasksText {
+    margin-left: 10px;
+}
+
+.settingsMenuWrapper {
+    display: flex;
+    align-items: center;
+}

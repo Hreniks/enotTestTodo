@@ -1,0 +1,29 @@
+p {
+    text-align: center;
+}
+
+.marquee-text {
+    width: 100%;
+    border: 1px solid #000;
+
+    overflow: hidden;
+}
+
+.marquee-text div {
+    width: 100%;
+    animation: marquee-text 10s linear backwards;
+    transform: translateX(300%);
+}
+
+
+.marquee-text h1 {
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+@keyframes marquee-text {
+    100% {
+        transform: translateX(-500%);
+    }
+}
